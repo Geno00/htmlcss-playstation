@@ -30,8 +30,17 @@ header{
     background-color: black;
 }
 
+.my_blue{
+    background-color: rgb(38, 75, 226);
+}
+
 .my_red{
     background-color: orangered;
+}
+
+.my_trasparent{
+    background-color: whitesmoke;
+    color: blue;
 }
 
 .my_search{
@@ -40,6 +49,7 @@ header{
 
 
 #jumbotron{
+    position: relative;
     width: 100%;
     height: 400px;
     margin-top: 100px;
@@ -52,3 +62,68 @@ header{
 #jumbotron p{
     width: 35%;
 }
+
+
+.jumbo_text{
+    position: absolute;
+    bottom: 0;
+    top: 80px;
+}
+
+.my_img_jumbo_1{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#it-takes-two{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+#it-takes-two p, h2{
+    width: 35%;
+}
+
+.jumbo_text_2{
+    position: absolute;
+    top: 0;
+}
+
+#nuove-uscite{
+    background-color: rgb(34, 34, 34);
+}
+
+.font_size{
+    font-size: small;
+}
+
+#ps-plus{
+    background-color: gainsboro;
+}
+
+
+@media all and (max-width: 500px) {
+  #ps_5{
+    flex-wrap: wrap;
+  }
+
+  #ps-4{
+    flex-wrap: wrap;
+    
+  }
+
+  #ps-4 div{
+    margin-bottom: 50px;
+  }
+
+  .img_plus{
+    display: none;
+
+  }
+  
+
+  }
